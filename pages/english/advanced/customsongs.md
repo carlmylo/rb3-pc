@@ -50,7 +50,8 @@ It is also recommended to check the box `Author to DTA tag` at the bottom right.
 
 7\. At the bottom left, make sure `Encrypt .mid.edat` is select, then:
 
-if you're using RPCS3, select Folders (PS3)  
+select `Folders (PS3)``.  
+This is recommended for RPCS3 users and PS3 users that know how to use FTP.  
 ![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Folders (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png "Quick Convert")
 
 8\. _(Optional but highly recommended)_
@@ -61,12 +62,16 @@ If you want to find the folder easily, I recommend selecting Custom USRDIR subfo
 You can make a pack with just a single song too. It really helps if you're trying to locate a song you already installed within the game files.  
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
 
-9\. At the bottom, select the big green button labeled `Make pack` or (`Start` if you used the `Make Songs` option) and navigate to your RPCS3 folder.  
-![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
+9\. At the bottom, select the big button labeled `Make pack` or (`Start` if you used the `Make Songs` option.)  
+![A screenshot of Onyx's Quick Convert screen. The cursor is over "Make 1 pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackrpcs3.png "Quick Convert")
 
-Once there, select the `dev_hdd0` folder.
-![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
+Navigate to your RPCS3 folder and select the `dev_hdd0` folder.  
+If you're going to be installing to a PS3 via FTP, select the most convenient folder.  
+![A screenshot of a file browser window. "dev_hdd0" is selected and the cursor is over "Select folder."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savefolder.png "Select Folder")
 
+It should successfully convert and auto-install into your RPCS3 directory, ready to play.  
+If using RB3DX, you can even do this while the game is running. Within RB3, select Options > Extras > Refresh Library to reload your song list.  
+![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png "Quick Convert")
 
 
 
