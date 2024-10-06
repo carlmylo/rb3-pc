@@ -46,11 +46,11 @@ It is also recommended to check the box `Author to DTA tag` at the bottom right.
 ![A screenshot of Onyx's Quick Convert screen. "Author to DTA" is highlighted and has a cursor over it.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxauthor.png "Quick Convert")
 
 6\. Below the first row of gray buttons, click the first menu and select `Make Packs` or `Make Songs` depending on how you want to combine your songs (packs are recommended).  
-![A screenshot of Onyx's Quick Convert screen. "Make songs: produced a single file for each song" has been clicked and the cursor is over "Make packs: combine songs up to a maximum file size."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepack.png "Quick Convert")
+![A screenshot of Onyx's Quick Convert screen. "Make songs: produced a single file for each song" has been clicked and the cursor is over "Make packs: combine songs up to a maximum file size."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackrpcs3.png "Quick Convert")
 
 7\. At the bottom left, make sure `Encrypt .mid.edat` is select, then:
 
-select `Folders (PS3)``.  
+select `Folders (PS3)`.  
 This is recommended for RPCS3 users and PS3 users that know how to use FTP.  
 ![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Folders (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png "Quick Convert")
 
