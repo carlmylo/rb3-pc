@@ -75,16 +75,13 @@ It should successfully convert and auto-install into your RPCS3 directory, ready
 If using RB3DX, you can even do this while the game is running. Within RB3, select Options > Extras > Refresh Library to reload your song list.  
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png "Quick Convert")
 
-<div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#folders">Folders (PS3)</a>
-                            </h4>
-                        </div>
-                        <div id="folders" class="panel-collapse collapse noCrossRef">
-                            <div class="panel-body">
-                                <p>This is recommended for RPCS3 users and PS3 users that know how to use FTP.<br>
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#folders" data-toggle="tab">Folders (PS3)</a></li>
+    <li><a href="#pkg" data-toggle="tab">PKG (PS3)</a></li>
+</ul>
+  <div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="folders">
+<p>This is recommended for RPCS3 users and PS3 users that know how to use FTP.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Folders (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
 <p>8. <em>(Optional but highly recommended)</em><br>
 With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be <code>OxxxxxSongName</code>. However, if you make a pack, the folder name will only include the first song in the pack.<br>
@@ -100,25 +97,12 @@ If you’re going to be installing to a PS3 via FTP, select the most convenient 
 <p>It should successfully convert and auto-install into your RPCS3 directory, ready to play.<br>
 If using RB3DX, you can even do this while the game is running. Within RB3, select Options &gt; Extras &gt; Refresh Library to reload your song list.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#pkg">PKG (PS3)</a>
-                            </h4>
-                        </div>
-                        <div id="pkg" class="panel-collapse collapse">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.panel -->
 </div>
-<!-- /.panel-group -->
+
+<div role="tabpanel" class="tab-pane" id="pkg">
+    <p>Lorem ipsum ...</p></div>
+</div>
+
 
 
 
