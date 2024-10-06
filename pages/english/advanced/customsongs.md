@@ -62,6 +62,8 @@ You can make a pack with just a single song too. It really helps if you're tryin
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
 
 9\. At the bottom, select the big green button labeled `Make pack` or (`Start` if you used the `Make Songs` option) and navigate to your RPCS3 folder.  
+![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
+
 Once there, select the `dev_hdd0` folder.
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
 
