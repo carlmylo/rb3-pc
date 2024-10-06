@@ -5,6 +5,7 @@ permalink: adv_customsongs
 folder: english
 tags: [advanced, english]
 summary: "How to add custom songs to Rock Band 3."
+toc: false
 ---
 
 ## Introduction:
@@ -24,7 +25,7 @@ The main guide on page 2 will fix two major problems the PS3 has with customs th
 	* [[Mirror Link]](https://github.com/trojannemo/Nautilus/releases/){:target="_blank"}
 * [[Onyx Music Game Toolkit]](https://github.com/mtolly/onyxite-customs){:target="_blank"}
 
-## Converting to Xbox 360 CONs to PS3
+## Converting to Xbox 360 CONs to PS3/RPCS3 Format
 1\. If you wish to convert official Xbox 360 DLC, skip to step 4, otherwise continue reading below:  
 [[Download the songs of your choice from RhythmVerse]](https://rhythmverse.co/songfiles/game/rb3).
 
@@ -48,9 +49,10 @@ It is also recommended to check the box `Author to DTA tag` at the bottom right.
 6\. Below the first row of gray buttons, click the first menu and select `Make Packs` or `Make Songs` depending on how you want to combine your songs (packs are recommended).  
 ![A screenshot of Onyx's Quick Convert screen. "Make songs: produced a single file for each song" has been clicked and the cursor is over "Make packs: combine songs up to a maximum file size."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackrpcs3.png "Quick Convert")
 
-7\. At the bottom left, make sure `Encrypt .mid.edat` is select, then:
+7\. At the bottom left, make sure `Encrypt .mid.edat` is select, then select between either `PKG (PS3)` or `Folders (PS3)`.  
+* `Folders (PS3)` is recommended for RPCS3 users and PS3 users who know how to use FTP. It is **much** faster than PKG creation.
+* `PKG (PS3)` is only recommended for PS3 users who can only use USB flash drives to add more songs.
 
-select `Folders (PS3)`.  
 This is recommended for RPCS3 users and PS3 users that know how to use FTP.  
 ![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Folders (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png "Quick Convert")
 
@@ -72,6 +74,52 @@ If you're going to be installing to a PS3 via FTP, select the most convenient fo
 It should successfully convert and auto-install into your RPCS3 directory, ready to play.  
 If using RB3DX, you can even do this while the game is running. Within RB3, select Options > Extras > Refresh Library to reload your song list.  
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png "Quick Convert")
+
+<div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#folders">Folders (PS3)</a>
+                            </h4>
+                        </div>
+                        <div id="folders" class="panel-collapse collapse noCrossRef">
+                            <div class="panel-body">
+                                <p>This is recommended for RPCS3 users and PS3 users that know how to use FTP.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Folders (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
+<p>8. <em>(Optional but highly recommended)</em><br>
+With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be <code>OxxxxxSongName</code>. However, if you make a pack, the folder name will only include the first song in the pack.<br>
+If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of <code>Combine into one new USRDIR subfolder per pack</code> and entering the name of your choice.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamepkg.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Custom USRDIR subfolder&quot; where &quot;Keep original USRDIR subfolders&quot; once was." title="Quick Convert"></p>
+<p>You can make a pack with just a single song too. It really helps if you’re trying to locate a song you already installed within the game files.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
+<p>9. At the bottom, select the big button labeled <code>Make pack</code> or (<code>Start</code> if you used the <code>Make Songs</code> option.)<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackrpcs3.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is over &quot;Make 1 pack.&quot;" title="Quick Convert"></p>
+<p>Navigate to your RPCS3 folder and select the <code>dev_hdd0</code> folder.<br>
+If you’re going to be installing to a PS3 via FTP, select the most convenient folder.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savefolder.png" alt="A screenshot of a file browser window. &quot;dev_hdd0&quot; is selected and the cursor is over &quot;Select folder.&quot;" title="Select Folder"></p>
+<p>It should successfully convert and auto-install into your RPCS3 directory, ready to play.<br>
+If using RB3DX, you can even do this while the game is running. Within RB3, select Options &gt; Extras &gt; Refresh Library to reload your song list.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="noCrossRef accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#pkg">PKG (PS3)</a>
+                            </h4>
+                        </div>
+                        <div id="pkg" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+</div>
+<!-- /.panel-group -->
+
 
 
 
