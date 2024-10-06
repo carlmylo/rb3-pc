@@ -49,21 +49,23 @@ It is also recommended to check the box `Author to DTA tag` at the bottom right.
 ![A screenshot of Onyx's Quick Convert screen. "Make songs: produced a single file for each song" has been clicked and the cursor is over "Make packs: combine songs up to a maximum file size."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepack.png "Quick Convert")
 
 7\. At the bottom left, make sure `Encrypt .mid.edat` is select, then:
-	* a. if using RPCS3, select Folders (PS3)
-	* b. if using PS3, select PKG (PS3)
 
+if you're using RPCS3, select Folders (PS3)  
 ![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Folders (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png "Quick Convert")
 
 8\. _(Optional but highly recommended)_
 With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be `OxxxxxSongName`. However, if you make a pack, the folder name will only include the first song in the pack.  
-If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of `Combine into one new USRDIR subfolder per pack` and entering the name of your choice.
-
+If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of `Combine into one new USRDIR subfolder per pack` and entering the name of your choice.  
 ![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Custom USRDIR subfolder" where "Keep original USRDIR subfolders" once was.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamepkg.png "Quick Convert")
 
-You can make a pack with just a single song too. It really helps if you're trying to locate a song you already installed within the game files.
-
+You can make a pack with just a single song too. It really helps if you're trying to locate a song you already installed within the game files.  
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
 
-9\. 
+9\. At the bottom, select the big green button labeled `Make pack` or (`Start` if you used the `Make Songs` option) and navigate to your RPCS3 folder.  
+Once there, select the `dev_hdd0` folder.
+![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
+
+
+
 
 {% include links.html %}
