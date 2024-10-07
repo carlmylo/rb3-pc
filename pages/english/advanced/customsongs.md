@@ -123,7 +123,7 @@ If using RB3DX, you can even do this while the game is running. Within RB3, sele
 </div>
 
 <div role="tabpanel" class="tab-pane" id="pkg">
-<p><img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutpkg.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;PS3 (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
+    <p><img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutpkg.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;PS3 (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
 <p>8. <em>(Optional but highly recommended)</em><br>
 With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be <code>OxxxxxSongName</code>. However, if you make a pack, the folder name will only include the first song in the pack.<br>
 If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of <code>Combine into one new USRDIR subfolder per pack</code> and entering the name of your choice.<br>
@@ -138,7 +138,7 @@ If you want to find the folder easily, I recommend selecting Custom USRDIR subfo
 Simply install it like any other PKG.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedpkg.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
 
-
+</div>
 </div>
 
 {% include links.html %}
