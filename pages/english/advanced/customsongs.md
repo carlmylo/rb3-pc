@@ -53,13 +53,12 @@ It is also recommended to check the box `Author to DTA tag` at the bottom right.
 * `Folders (PS3)` is recommended for RPCS3 users and PS3 users who know how to use FTP. It is **much** faster than PKG creation.
 * `PKG (PS3)` is only recommended for PS3 users who can only use USB flash drives to add more songs.
 
-This is recommended for RPCS3 users and PS3 users that know how to use FTP.  
-![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Folders (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png "Quick Convert")
+![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Folders (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutfolder.png "Quick Convert")
 
 8\. _(Optional but highly recommended)_
 With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be `OxxxxxSongName`. However, if you make a pack, the folder name will only include the first song in the pack.  
 If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of `Combine into one new USRDIR subfolder per pack` and entering the name of your choice.  
-![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Custom USRDIR subfolder" where "Keep original USRDIR subfolders" once was.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamepkg.png "Quick Convert")
+![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Custom USRDIR subfolder" where "Keep original USRDIR subfolders" once was.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamerpcs3.png "Quick Convert")
 
 You can make a pack with just a single song too. It really helps if you're trying to locate a song you already installed within the game files.  
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
@@ -72,8 +71,31 @@ If you're going to be installing to a PS3 via FTP, select the most convenient fo
 ![A screenshot of a file browser window. "dev_hdd0" is selected and the cursor is over "Select folder."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savefolder.png "Select Folder")
 
 It should successfully convert and auto-install into your RPCS3 directory, ready to play.  
-If using RB3DX, you can even do this while the game is running. Within RB3, select Options > Extras > Refresh Library to reload your song list.  
+If using RB3DX, you can even do this while the game is running. Within RB3, select:  
+`Options > Extras > Refresh Library` to reload your song list.  
 ![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png "Quick Convert")
+
+This method is only suggested for PS3
+
+![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "PS3 (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutpkg.png "Quick Convert")
+
+8\. _(Optional but highly recommended)_
+With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be `OxxxxxSongName`. However, if you make a pack, the folder name will only include the first song in the pack.  
+If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of `Combine into one new USRDIR subfolder per pack` and entering the name of your choice.  
+![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Custom USRDIR subfolder" where "Keep original USRDIR subfolders" once was.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamepkg.png "Quick Convert")
+
+You can make a pack with just a single song too. It really helps if you're trying to locate a song you already installed within the game files.  
+![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
+
+9\. At the bottom, select the big button labeled `Make pack` or (`Start` if you used the `Make Songs` option.)  
+![A screenshot of Onyx's Quick Convert screen. The cursor is over "Make 1 pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackpkg.png "Quick Convert")
+
+Select where you would like to save the PKG file and give it a name.  
+![A screenshot of a file browser window. The file name has been set to "my_custom_pack"](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savepkg.png "Select Folder")
+
+It should successfully convert and a PKG file will be created, ready to install.  
+Simply install it like any other PKG.  
+![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedpkg.png "Quick Convert")
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a href="#folders" data-toggle="tab">Folders (PS3)</a></li>
@@ -81,12 +103,11 @@ If using RB3DX, you can even do this while the game is running. Within RB3, sele
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="folders">
-<p>This is recommended for RPCS3 users and PS3 users that know how to use FTP.<br>
-<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutmakerpcs3.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Folders (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutfolder.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Folders (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
 <p>8. <em>(Optional but highly recommended)</em><br>
 With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be <code>OxxxxxSongName</code>. However, if you make a pack, the folder name will only include the first song in the pack.<br>
-If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of <code>Combine into one new USRDIR subfolder per pack</code> and entering the name of your choice.<br>
-<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamepkg.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Custom USRDIR subfolder&quot; where &quot;Keep original USRDIR subfolders&quot; once was." title="Quick Convert"></p>
+If you want to find the folder easily, I recommend selecting <code>Custom USRDIR subfolder</code> instead of <code>Combine into one new USRDIR subfolder per pack</code> and entering the name of your choice.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamerpcs3.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Custom USRDIR subfolder&quot; where &quot;Keep original USRDIR subfolders&quot; once was." title="Quick Convert"></p>
 <p>You can make a pack with just a single song too. It really helps if you’re trying to locate a song you already installed within the game files.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
 <p>9. At the bottom, select the big button labeled <code>Make pack</code> or (<code>Start</code> if you used the <code>Make Songs</code> option.)<br>
@@ -95,16 +116,29 @@ If you want to find the folder easily, I recommend selecting Custom USRDIR subfo
 If you’re going to be installing to a PS3 via FTP, select the most convenient folder.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savefolder.png" alt="A screenshot of a file browser window. &quot;dev_hdd0&quot; is selected and the cursor is over &quot;Select folder.&quot;" title="Select Folder"></p>
 <p>It should successfully convert and auto-install into your RPCS3 directory, ready to play.<br>
-If using RB3DX, you can even do this while the game is running. Within RB3, select Options &gt; Extras &gt; Refresh Library to reload your song list.<br>
+If using RB3DX, you can even do this while the game is running. Within RB3, select:<br>
+<code>Options &gt; Extras &gt; Refresh Library</code> to reload your song list.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
+
 </div>
 
 <div role="tabpanel" class="tab-pane" id="pkg">
-    <p>Lorem ipsum ...</p></div>
+<p><img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutpkg.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;PS3 (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
+<p>8. <em>(Optional but highly recommended)</em><br>
+With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be <code>OxxxxxSongName</code>. However, if you make a pack, the folder name will only include the first song in the pack.<br>
+If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of <code>Combine into one new USRDIR subfolder per pack</code> and entering the name of your choice.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamepkg.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Custom USRDIR subfolder&quot; where &quot;Keep original USRDIR subfolders&quot; once was." title="Quick Convert"></p>
+<p>You can make a pack with just a single song too. It really helps if you’re trying to locate a song you already installed within the game files.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
+<p>9. At the bottom, select the big button labeled <code>Make pack</code> or (<code>Start</code> if you used the <code>Make Songs</code> option.)<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackpkg.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is over &quot;Make 1 pack.&quot;" title="Quick Convert"></p>
+<p>Select where you would like to save the PKG file and give it a name.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savepkg.png" alt="A screenshot of a file browser window. The file name has been set to &quot;my_custom_pack&quot;" title="Select Folder"></p>
+<p>It should successfully convert and a PKG file will be created, ready to install.<br>
+Simply install it like any other PKG.<br>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedpkg.png" alt="A screenshot of Onyx's USRDIR naming popup. The pack has been named &quot;my_custom_pack.&quot;" title="Quick Convert"></p>
+
+
 </div>
-
-
-
-
 
 {% include links.html %}
