@@ -5,7 +5,6 @@ permalink: adv_customsongs
 folder: english
 tags: [advanced, english]
 summary: "How to add custom songs to Rock Band 3."
-toc: false
 ---
 
 ## Introduction:
@@ -14,7 +13,7 @@ Custom songs for Rock Band 3 are generally made with only the Xbox 360 in mind. 
 
 <span style="font-size:larger;">This guide is primarily focused on customs songs, do not attempt to run official RB content through the fixer.</span>
 
-The main guide on page 2 will fix two major problems the PS3 has with customs that the 360 doesn’t and should follow for every custom you add.
+The main guide on page 2 will fix two major problems the PS3 has with customs that the 360 doesn't and should follow for every custom you add.
 * Infinite loading from improper encryption
 * Crash from too high-quality audio
 
@@ -52,50 +51,6 @@ It is also recommended to check the box `Author to DTA tag` at the bottom right.
 7\. At the bottom left, make sure `Encrypt .mid.edat` is select, then select between either `PKG (PS3)` or `Folders (PS3)`.  
 * `Folders (PS3)` is recommended for RPCS3 users and PS3 users who know how to use FTP. It is **much** faster than PKG creation.
 * `PKG (PS3)` is only recommended for PS3 users who can only use USB flash drives to add more songs.
-
-![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Folders (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutfolder.png "Quick Convert")
-
-8\. _(Optional but highly recommended)_
-With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be `OxxxxxSongName`. However, if you make a pack, the folder name will only include the first song in the pack.  
-If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of `Combine into one new USRDIR subfolder per pack` and entering the name of your choice.  
-![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Custom USRDIR subfolder" where "Keep original USRDIR subfolders" once was.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamerpcs3.png "Quick Convert")
-
-You can make a pack with just a single song too. It really helps if you're trying to locate a song you already installed within the game files.  
-![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
-
-9\. At the bottom, select the big button labeled `Make pack` or (`Start` if you used the `Make Songs` option.)  
-![A screenshot of Onyx's Quick Convert screen. The cursor is over "Make 1 pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackrpcs3.png "Quick Convert")
-
-Navigate to your RPCS3 folder and select the `dev_hdd0` folder.  
-If you're going to be installing to a PS3 via FTP, select the most convenient folder.  
-![A screenshot of a file browser window. "dev_hdd0" is selected and the cursor is over "Select folder."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savefolder.png "Select Folder")
-
-It should successfully convert and auto-install into your RPCS3 directory, ready to play.  
-If using RB3DX, you can even do this while the game is running. Within RB3, select:  
-`Options > Extras > Refresh Library` to reload your song list.  
-![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedrpcs3.png "Quick Convert")
-
-This method is only suggested for PS3
-
-![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "PS3 (PS3)" and "Encrypted .mid.edat" has been enabled.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutpkg.png "Quick Convert")
-
-8\. _(Optional but highly recommended)_
-With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be `OxxxxxSongName`. However, if you make a pack, the folder name will only include the first song in the pack.  
-If you want to find the folder easily, I recommend selecting Custom USRDIR subfolder instead of `Combine into one new USRDIR subfolder per pack` and entering the name of your choice.  
-![A screenshot of Onyx's Quick Convert screen. The cursor is selecting "Custom USRDIR subfolder" where "Keep original USRDIR subfolders" once was.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxfoldernamepkg.png "Quick Convert")
-
-You can make a pack with just a single song too. It really helps if you're trying to locate a song you already installed within the game files.  
-![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxnamepack.png "Quick Convert")
-
-9\. At the bottom, select the big button labeled `Make pack` or (`Start` if you used the `Make Songs` option.)  
-![A screenshot of Onyx's Quick Convert screen. The cursor is over "Make 1 pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxmakepackpkg.png "Quick Convert")
-
-Select where you would like to save the PKG file and give it a name.  
-![A screenshot of a file browser window. The file name has been set to "my_custom_pack"](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savepkg.png "Select Folder")
-
-It should successfully convert and a PKG file will be created, ready to install.  
-Simply install it like any other PKG.  
-![A screenshot of Onyx's USRDIR naming popup. The pack has been named "my_custom_pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxcreatedpkg.png "Quick Convert")
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a href="#folders" data-toggle="tab">Folders (PS3)</a></li>
@@ -140,5 +95,47 @@ Simply install it like any other PKG.<br>
 
 </div>
 </div>
+
+## Troubleshooting
+
+### Customs not working online / Scores not saving
+The PS3 version of Rock Band 3 can only remember scores for numeric song IDs. If a converted song has letters in the song ID, it will create a new one every time the game starts. This means your score is wiped every time.
+
+Online will also have problems, with songs appearing grey even if you and other players have the same song installed. To avoid this, the CON file needs a numeric ID.
+
+![A screenshot of Rock Band 3, showing songs with a darker color as they are disabled.](https://rb3pc.milohax.org/images/trbl/online/missingsong.png "Rock Band 3: Missing Songs Example")
+
+If you wish to correct the ID of a song you've already installed, click here down to the “Installed Songs section”, otherwise follow the steps below to get a correct ID:
+
+#### Fixing IDs Before Installing
+
+1\. Open Nautilus and select `Batch DTA Processor`.   
+![A screenshot of Nautilus. A cursor hovers over "Batch Processor."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilushomebatchproc.png "Nautilus")
+
+2\. Drag and drop any CON in your folder of customs you want to install then click `Begin` to start processing the entire folder.  
+**Make sure that `Automatically change alphanumeric songs IDs to unique numeric IDs` is enabled!**  
+![A GIF of Nautilus' Batch DTA Processor. Songs are being dragged then dropped into it then, after "Begin" is click, it starts processing.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusbatchfix.gif "Batch DTA Processor")
+
+3\. After it's done, you can go back to step 4 of [[the main tutorial]].
+
+#### Fixing IDs of Installed Songs
+
+1\. Open Nautilus and select `PS3 Converter`.  
+![A screenshot of Nautilus. A cursor hovers over "PS3 Converter."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilushomeps3.png "Nautilus")
+
+2\. At the top of the `PS3 Converter` window, go to:  
+`Numeric ID Options > Batch replace song IDs`  
+![A screenshot of Nautilus's PS3 Converter. A cursor hovers over "Batch replace song IDs" under the "Numeric ID Options" menu.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batch.png "PS3 Converter")
+
+3\. On either PS3 or RPCS3, navigate to song/pack containing the song with the bad ID (normally within `dev_hdd0\game\BLUS30463\USRDIR\[SONGNAME]\songs`).  
+After finding it, select the `songs.dta` file within the folder. 
+![A screenshot of a file browser window. "dev_hdd0" is selected and the cursor is over "Open".](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchselect.png "Select DTA file to edit")
+
+4\. Wait for it to finish correcting every song within that pack. When it finishes, you can share the fixed `songs.dta` file with your friends to play the previously unavailable songs together.  
+![A screenshot of Nautilus's PS3 Converter. It has just finished replacing custom songs without numeric IDs.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchdone.png "PS3 Converter")
+
+## Songs Stuck Looping at the End
+
+
 
 {% include links.html %}
