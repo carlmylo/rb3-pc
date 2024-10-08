@@ -11,7 +11,7 @@ summary: "How to add custom songs to Rock Band 3."
 
 Custom songs for Rock Band 3 are generally made with only the Xbox 360 in mind. They exist as CON files that can be converted for PS3. This guide will show you how to convert these files to PKG files you can install on PS3.
 
-<span style="font-size:larger;">This guide is primarily focused on customs songs, do not attempt to run official RB content through the fixer.</span>
+<span style="font-size:xxx-large;">This guide is primarily focused on customs songs, do not attempt to run official RB content through the fixer.</span>
 
 The main guide on page 2 will fix two major problems the PS3 has with customs that the 360 doesn't and should follow for every custom you add.
 * Infinite loading from improper encryption
@@ -58,7 +58,7 @@ It is also recommended to check the box `Author to DTA tag` at the bottom right.
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="folders">
-<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutfolder.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Folders (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert"></p>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxoutfolder.png" alt="A screenshot of Onyx's Quick Convert screen. The cursor is selecting &quot;Folders (PS3)&quot; and &quot;Encrypted .mid.edat&quot; has been enabled." title="Quick Convert">
 <p>8. <em>(Optional but highly recommended)</em><br>
 With these methods, the USRDIR subfolder will have an auto-generated name. For single songs and packs, it’ll be <code>OxxxxxSongName</code>. However, if you make a pack, the folder name will only include the first song in the pack.<br>
 If you want to find the folder easily, I recommend selecting <code>Custom USRDIR subfolder</code> instead of <code>Combine into one new USRDIR subfolder per pack</code> and entering the name of your choice.<br>
@@ -125,7 +125,7 @@ If you wish to correct the ID of a song you've already installed, click here dow
 
 2\. At the top of the `PS3 Converter` window, go to:  
 `Numeric ID Options > Batch replace song IDs`  
-![A screenshot of Nautilus's PS3 Converter. A cursor hovers over "Batch replace song IDs" under the "Numeric ID Options" menu.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batch.png "PS3 Converter")
+![A screenshot of Nautilus's PS3 Converter. A cursor hovers over "Batch replace song IDs" under the "Numeric ID Options" menu.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchid.png "PS3 Converter")
 
 3\. On either PS3 or RPCS3, navigate to song/pack containing the song with the bad ID (normally within `dev_hdd0\game\BLUS30463\USRDIR\[SONGNAME]\songs`).  
 After finding it, select the `songs.dta` file within the folder. 
@@ -135,7 +135,99 @@ After finding it, select the `songs.dta` file within the folder.
 ![A screenshot of Nautilus's PS3 Converter. It has just finished replacing custom songs without numeric IDs.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchdone.png "PS3 Converter")
 
 ## Songs Stuck Looping at the End
+Occasionally certain songs may freeze toward the end of the chart, constantly looping the last bits of the audio endlessly.  
+* **You will need need the original CON file to fix this issue!**
+* **Do not run every song through this if it does not need fixing, the audio will be re-encoded and will have a slight decrease in audio quality**
 
+1\. Open Nautilus and select `PS3 Converter`.  
+![A screenshot of Nautilus. A cursor hovers over "PS3 Converter."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilushomeps3.png "Nautilus")
+
+2\. At the top of the `PS3 Converter` window, go to:  
+`Tools > Batch fix looping songs`  
+![A screenshot of Nautilus's PS3 Converter. A cursor hovers over "Batch fix looping songs" under the "Tools" menu.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchloop.png "PS3 Converter")
+
+3\. Go to the folder where the problematic CON is at and select the folder.  
+Wait for it to finish.
+![A screenshot of Nautilus's PS3 Converter. It is in the process of fixing a looping file.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchloopproc.png "PS3 Converter")
+
+4\. After it's done, you can go back to step 4 of [[the main tutorial]].
+
+## Delete individual songs in a pack
+
+Rock Band 3 can delete a song in-game. The problem is, if a song is part of a pack, it'll delete that entire pack as well.  
+![A screenshot from Rock Band 3, warning the user that they're about to delete many songs from the library.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/rb3delwarn.png "Delete song")
+
+The best way to remove a song from a pack is through Nautilus' "Quick Patch Editor."
+
+1\. Open Nautilus and select `Quick Pack Editor`.  
+![A screenshot of Nautilus. A cursor hovers over "Quick Pack Editor."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilushomepack.png "Nautilus")
+
+2\. Open a file browser window and navigate to the pack folder that contains the song you want to remove and look for the `songs.dta` file.  
+It will usually be in `dev_hdd0\game\BLUS30463\USRDIR\[PACKNAME]\songs`).
+![A screenshot of a file browser window. "songs.dta" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/findfolder.png "songs")
+
+3\. Drag the `songs.dta` file into the `Quick Pack Editor`.  
+Select the songs you want to remove then click `Remove selected`.  
+When you're done, click `Save` to lock your changes in.  
+![A GIF of a "songs.dta" file being dragged and dropped into Nautilus' Quick Pack Editor.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautiluspackdrag.gif "Quick Pack Editor")
+
+4.\. Even though the song is deleted from the `songs.dta` file, they will still take up space.  
+You have to delete the song's corresponding folder as well.  
+![A screenshot of a file browser window. Multiple songs are selected and the cursor hovers over a popup menu option that says "Delete."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/packdelfolder.png "songs")
+
+## PS3: Greyed out customs
+
+By default, the PlayStation 3's Parental Controls are set to level 9.  
+This doesn't allow customs that are classified as "Unrated", causing them to appear grey. 
+![A screenshot of Rock Band 3's song library. It shows as greyed out song.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/ps3grey.png "Rock Band 3: Grey Songs")
+
+Selecting these songs will cause a crash.
+To fix this, set the `Parental Control` to `Off` in:  
+XMB: [ **Settings** ] -> [ **Security Settings** ] -> [ **Parental Control** ] -> [ **Off** ]  
+![A screenshot of the parental control menu in PlayStation 3's XMB home menu. The level is set to "Off".](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/ps3parental.png "Parental Control")
+
+## Songs still infinite loading
+
+In very rare cases, songs might still have infinite loading, even after the using PS3 fixer.  
+
+Do note that you'll need to have "Rock Band 3 1.1 Beta 4" or newer if you're on PS3.  
+
+1\. Open Nautilus and select `Batch Cryptor`.  
+![A screenshot of Nautilus. A cursor hovers over "Batch Cryptor."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilushomepack.png "Nautilus")
+
+2\. Swap to `Decrypt` at the bottom of the screen.  
+![A screenshot of Batch Cryptor. The mode has been switched to "Decrypt."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautiluscryptdecrypt.png "Batch Cryptor")
+
+3\. On either PS3 or RPCS3, navigate to the folder containing the song you wish to fix.  
+It will usually be in `dev_hdd0\game\BLUS30463\USRDIR\[PACKNAME]\songs\[PROBLEMATICSONG]`).  
+There will be a `.mogg` file in the song's folder.  
+![A screenshot of a file browser window. A mogg file is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/findmogg.png "MOGG File")
+
+4\. Drag and drop the song's `.mogg` file onto `Batch Cryptor` and click `Begin`.  
+![A GIF of a .mogg file being dropped into "Batch Cryptor" the being decrypted.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautiluscryptdecryptmogg.gif "Quick Convert")
+
+5\. A new folder called `decrypted` will appear when it finishes.  
+Go into the new `decrypted` folder and cut the `.mogg` file inside of it.  
+Go back to the song's main folder and replace the old `.mogg` file.
+![A GIF of a .mogg file within the "decrypted" folder being cut then pasted in the folder before it. It replaces the old .mogg file.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/moggreplace.gif "Quick Convert")
+
+## Converting Clone Hero/YARG songs to Rock Band 3
+
+<span style="font-size:xxx-large;">DISCLAIMER - READ BEFORE CONTINUING</span>
+
+Do this as a **last resort** if the charts you want to convert were specifically made for PC clone games (Clone Hero/YARG). If the chart originally existed in RB format, whether it be official DLC or customs, **get that first and follow the main guide at the top!**
+
+**Failure to do so will result in lost metadata** associated with the original song package, including:
+* Incompatibility with any song upgrades in RB3DX
+	* Keys, Pro Guitar, Harmonies, & chart fixes to legacy RB songs that didn't have them
+* Incompatibility with online play and leaderboards
+* Animation data such as character lipsync will be lost
+
+Should you decide to ignore the disclaimer and proceed, you will be **refused any support** from the MiloHax Discord if you run into any issues.
+**YOU HAVE BEEN WARNED!**
+
+1\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
+![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
 
 
 {% include links.html %}
