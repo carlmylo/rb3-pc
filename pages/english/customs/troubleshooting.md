@@ -27,7 +27,7 @@ If you wish to correct the ID of a song you've already installed, click here dow
 **Make sure that `Automatically change alphanumeric songs IDs to unique numeric IDs` is enabled!**  
 ![A GIF of Nautilus' Batch DTA Processor. Songs are being dragged then dropped into it then, after "Begin" is click, it starts processing.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusbatchfix.gif "Batch DTA Processor")
 
-3\. After it's done, you can go back to step 4 of [[the main tutorial]].
+3\. After it's done, you can go back to step 4 of [[the main tutorial]](https://carlmylo.github.io/rb3-pc/customs_360toPS3#4){:target="_blank"}.
 
 ### Fixing IDs of Installed Songs
 
@@ -61,7 +61,7 @@ Occasionally certain songs may freeze toward the end of the chart, constantly lo
 Wait for it to finish.
 ![A screenshot of Nautilus's PS3 Converter. It is in the process of fixing a looping file.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchloopproc.png "PS3 Converter")
 
-4\. After it's done, you can go back to step 4 of [[the main tutorial]].
+4\. After it's done, you can go back to step 4 of [[the main tutorial]](https://carlmylo.github.io/rb3-pc/customs_360toPS3#4){:target="_blank"}.
 
 ## Delete individual songs in a pack
 
