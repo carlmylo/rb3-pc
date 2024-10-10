@@ -1,16 +1,13 @@
 ---
-title: "Converting to Xbox 360 CONs to PS3/RPCS3 Format"
+title: "Troubleshooting"
 sidebar: english_sidebar
 permalink: customs_troubleshooting
 folder: english
 tags: [advanced, english]
 summary: "How to add custom songs to Rock Band 3."
-toc: false
 ---
 
-## Troubleshooting
-
-### Customs not working online / Scores not saving
+## Customs not working online / Scores not saving
 The PS3 version of Rock Band 3 can only remember scores for numeric song IDs. If a converted song has letters in the song ID, it will create a new one every time the game starts. This means your score is wiped every time.
 
 Online will also have problems, with songs appearing grey even if you and other players have the same song installed. To avoid this, the CON file needs a numeric ID.
@@ -19,7 +16,7 @@ Online will also have problems, with songs appearing grey even if you and other 
 
 If you wish to correct the ID of a song you've already installed, click here down to the “Installed Songs section”, otherwise follow the steps below to get a correct ID:
 
-#### Fixing IDs Before Installing
+### Fixing IDs Before Installing
 
 1\. Open Nautilus and select `Batch DTA Processor`.   
 ![A screenshot of Nautilus. A cursor hovers over "Batch Processor."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilushomebatchproc.png "Nautilus")
@@ -30,7 +27,7 @@ If you wish to correct the ID of a song you've already installed, click here dow
 
 3\. After it's done, you can go back to step 4 of [[the main tutorial]].
 
-#### Fixing IDs of Installed Songs
+### Fixing IDs of Installed Songs
 
 1\. Open Nautilus and select `PS3 Converter`.  
 ![A screenshot of Nautilus. A cursor hovers over "PS3 Converter."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilushomeps3.png "Nautilus")
