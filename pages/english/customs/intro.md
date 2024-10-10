@@ -3,8 +3,10 @@ title: Introduction
 sidebar: english_sidebar
 permalink: customs_intro
 folder: english
-tags: [advanced, english]
+tags: [customs, english]
 summary: "How to add custom songs to Rock Band 3."
+series: "Converting Customs"
+weight: 1
 toc: false
 ---
 
@@ -22,5 +24,7 @@ The main guide on page 2 will fix two major problems the PS3 has with customs th
 * [[Nautilus version 4.8.4 or later]](https://nemosnautilus.com/nautilus/){:target="_blank"} (Previously known as C3 CON Tools/C3Tools)
 	* [[Mirror Link]](https://github.com/trojannemo/Nautilus/releases/){:target="_blank"}
 * [[Onyx Music Game Toolkit]](https://github.com/mtolly/onyxite-customs){:target="_blank"}
+
+{% include custom/series_getting_started_next.html %}
 
 {% include links.html %}

@@ -3,8 +3,10 @@ title: "Troubleshooting"
 sidebar: english_sidebar
 permalink: customs_troubleshooting
 folder: english
-tags: [advanced, english]
+tags: [customs, english]
 summary: "How to add custom songs to Rock Band 3."
+series: "Converting Customs"
+weight: 4
 ---
 
 ## Customs not working online / Scores not saving
@@ -140,5 +142,7 @@ Should you decide to ignore the disclaimer and proceed, you will be **refused an
 
 2\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
 ![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
+
+{% include custom/series_getting_started_next.html %}
 
 {% include links.html %}
