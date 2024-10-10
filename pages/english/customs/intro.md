@@ -25,6 +25,6 @@ The main guide on page 2 will fix two major problems the PS3 has with customs th
 	* [[Mirror Link]](https://github.com/trojannemo/Nautilus/releases/){:target="_blank"}
 * [[Onyx Music Game Toolkit]](https://github.com/mtolly/onyxite-customs){:target="_blank"}
 
-{% include custom/series_getting_started_next.html %}
+{% include custom/series_customs_next.html %}
 
 {% include links.html %}
