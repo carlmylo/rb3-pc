@@ -227,7 +227,31 @@ Should you decide to ignore the disclaimer and proceed, you will be **refused an
 **YOU HAVE BEEN WARNED!**
 
 1\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
-![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
+![A screenshot of Onyx's main screen. A cursor hovers over "Batch recompile."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatch.png "Onyx Console")
+
+2\. At the top of the Batch Recompile window, click on `Edit` then `Preferences`.  
+![A screenshot of Onyx's Batch Recompile. The "Edit" menu has been expanded and "Preferences" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Batch Recompile")
+
+3\. Switch to the `Rock Band` tab. 
+Change to `Magma optional`.  
+![A screenshot of Onyx's Preferences window. Under the "Rock Band" tab, "Magma optional" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Batch Recompile")
+
+4\. You will be warned about this.  
+Click `OK`.  
+![A screenshot of a warning from Onyx. It warns that disabling Magma will crash Rock Band.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Magma Warning")
+
+5\. You will be warned about this.  
+Click `OK`.  
+![A screenshot of a warning from Onyx. It warns that disabling Magma will crash Rock Band.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Magma Warning")
+
+6\. Switch to the `Audio` tab. 
+Lower the `OGG Vorbis quality` to `3.00`.  
+Click on `Save`.  
+![A screenshot of Onyx's Preferences window. Under the "Rock Band" tab, "Magma optional" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Batch Recompile")
+
+7\. Switch to the `Audio` tab. 
+Lower the `OGG Vorbis quality` to `3.00`.    
+![A screenshot of Onyx's Preferences window. Under the "Rock Band" tab, "Magma optional" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Batch Recompile")
 
 
 {% include links.html %}
