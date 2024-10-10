@@ -23,7 +23,7 @@ Should you decide to ignore the disclaimer and proceed, you will be **refused an
 **YOU HAVE BEEN WARNED!**
 
 1\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
-![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
+![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatch.png "Onyx Console")
 
 2\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
 ![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
