@@ -1,13 +1,12 @@
 ---
-title: Add Custom Songs to Rock Band 3 Deluxe
+title: "Introduction: Custom Songs to Rock Band 3"
 sidebar: english_sidebar
-permalink: adv_customsongs
+permalink: customs_intro
 folder: english
 tags: [advanced, english]
 summary: "How to add custom songs to Rock Band 3."
+toc:false
 ---
-
-## Introduction:
 
 Custom songs for Rock Band 3 are generally made with only the Xbox 360 in mind. They exist as CON files that can be converted for PS3. This guide will show you how to convert these files to PKG files you can install on PS3.
 
@@ -229,5 +228,7 @@ Should you decide to ignore the disclaimer and proceed, you will be **refused an
 1\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
 ![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
 
+2\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
+![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
 
 {% include links.html %}
