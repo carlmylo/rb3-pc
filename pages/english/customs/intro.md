@@ -1,11 +1,11 @@
 ---
-title: "Introduction: Custom Songs to Rock Band 3"
+title: Introduction
 sidebar: english_sidebar
 permalink: customs_intro
 folder: english
 tags: [advanced, english]
 summary: "How to add custom songs to Rock Band 3."
-toc:false
+toc: false
 ---
 
 Custom songs for Rock Band 3 are generally made with only the Xbox 360 in mind. They exist as CON files that can be converted for PS3. This guide will show you how to convert these files to PKG files you can install on PS3.
