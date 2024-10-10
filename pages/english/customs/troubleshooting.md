@@ -58,7 +58,7 @@ Occasionally certain songs may freeze toward the end of the chart, constantly lo
 ![A screenshot of Nautilus's PS3 Converter. A cursor hovers over "Batch fix looping songs" under the "Tools" menu.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchloop.png "PS3 Converter")
 
 3\. Go to the folder where the problematic CON is at and select the folder.  
-Wait for it to finish.
+Wait for it to finish.  
 ![A screenshot of Nautilus's PS3 Converter. It is in the process of fixing a looping file.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchloopproc.png "PS3 Converter")
 
 4\. After it's done, you can go back to step 4 of [[the main tutorial]](https://carlmylo.github.io/rb3-pc/customs_360toPS3#4){:target="_blank"}.
@@ -121,27 +121,6 @@ There will be a `.mogg` file in the song's folder.
 Go into the new `decrypted` folder and cut the `.mogg` file inside of it.  
 Go back to the song's main folder and replace the old `.mogg` file.
 ![A GIF of a .mogg file within the "decrypted" folder being cut then pasted in the folder before it. It replaces the old .mogg file.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/moggreplace.gif "Quick Convert")
-
-## Converting Clone Hero/YARG songs to Rock Band 3
-
-<span style="font-size:xxx-large;">DISCLAIMER - READ BEFORE CONTINUING</span>
-
-Do this as a **last resort** if the charts you want to convert were specifically made for PC clone games (Clone Hero/YARG). If the chart originally existed in RB format, whether it be official DLC or customs, **get that first and follow the main guide at the top!**
-
-**Failure to do so will result in lost metadata** associated with the original song package, including:
-* Incompatibility with any song upgrades in RB3DX
-	* Keys, Pro Guitar, Harmonies, & chart fixes to legacy RB songs that didn't have them
-* Incompatibility with online play and leaderboards
-* Animation data such as character lipsync will be lost
-
-Should you decide to ignore the disclaimer and proceed, you will be **refused any support** from the MiloHax Discord if you run into any issues.
-**YOU HAVE BEEN WARNED!**
-
-1\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
-![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
-
-2\. After downloading the charts you want, open Onyx and select `Batch recompile`.  
-![A screenshot of Onyx's main screen. A cursor hovers over "Quick convert/pack."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3oneclick.png "Onyx Console")
 
 {% include custom/series_customs_next.html %}
 
