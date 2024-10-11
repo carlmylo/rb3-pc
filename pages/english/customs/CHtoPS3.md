@@ -7,6 +7,7 @@ tags: [customs, english]
 summary: "How to add custom songs to Rock Band 3."
 series: "Converting Customs"
 weight: 3
+toc: false
 ---
 
 <span style="font-size:xxx-large;">DISCLAIMER - READ BEFORE CONTINUING</span>
