@@ -1,6 +1,6 @@
 ---
 title: Introduction
-sidebar: english_sidebar
+sidebar: customs_sidebar
 permalink: customs_intro
 folder: english
 tags: [english, customs]

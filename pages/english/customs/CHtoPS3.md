@@ -1,6 +1,6 @@
 ---
 title: "Converting Clone Hero/YARG songs to Rock Band 3"
-sidebar: english_sidebar
+sidebar: customs_sidebar
 permalink: customs_CHtoPS3
 folder: english
 tags: [english, customs]

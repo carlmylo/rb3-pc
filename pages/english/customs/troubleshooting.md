@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting"
-sidebar: english_sidebar
+sidebar: customs_sidebar
 permalink: customs_troubleshooting
 folder: english
 tags: [english, customs]
