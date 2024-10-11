@@ -4,7 +4,7 @@ sidebar: customs_sidebar
 permalink: customs_CHtoPS3
 folder: english
 tags: [english, customs]
-summary: "How to add custom songs to Rock Band 3."
+summary: "How to convert Clone Hero/YARG songs to PS3/RPCS3 Format"
 series: "Converting Customs"
 weight: 3
 toc: false

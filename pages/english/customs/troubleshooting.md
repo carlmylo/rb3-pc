@@ -4,7 +4,7 @@ sidebar: customs_sidebar
 permalink: customs_troubleshooting
 folder: english
 tags: [english, customs]
-summary: "How to add custom songs to Rock Band 3."
+summary: "How to solve common issues with Rock Band 3 customs."
 series: "Converting Customs"
 weight: 4
 ---
