@@ -170,14 +170,6 @@ entries:
       url: /adv_himem
       output: web
 
-    - title: Add Custom Songs to Rock Band 3
-      url: /adv_customsongs
-      output: web
-
-        - title: Add Custom Songs to Rock Band 3
-        url: /customs_intro
-        output: web
-
     - title: Move Game Files
       url: /adv_movedir
       output: web
@@ -193,6 +185,18 @@ entries:
     - title: Add Custom Textures to Rock Band 3
       url: /adv_customtex
       output: web
+
+  - title: Add Custom Songs to Rock Band 3
+    output: web
+    folderitems:
+
+    - title: Introduction
+      url: /customs_intro
+      output: web
+      type: homepage
+
+
+
 
   - title: Conclusion
     output: web
