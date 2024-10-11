@@ -2,9 +2,13 @@
 
 entries:
 - title: sidebar
-  product: Converting Customs
+  product: Guide
   version: 
   folders:
+
+  - title: Converting Customs
+    output: web
+    folderitems:
 
     - title: Introduction
       url: /customs_intro
