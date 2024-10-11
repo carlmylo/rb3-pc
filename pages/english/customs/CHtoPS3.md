@@ -3,7 +3,7 @@ title: "Converting Clone Hero/YARG songs to Rock Band 3"
 sidebar: english_sidebar
 permalink: customs_CHtoPS3
 folder: english
-tags: [customs, english]
+tags: [english, customs]
 summary: "How to add custom songs to Rock Band 3."
 series: "Converting Customs"
 weight: 3
