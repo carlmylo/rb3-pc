@@ -12,11 +12,10 @@ weight: 4
 ## Customs not working online / Scores not saving
 The PS3 version of Rock Band 3 can only remember scores for numeric song IDs. If a converted song has letters in the song ID, it will create a new one every time the game starts. This means your score is wiped every time.
 
-Online will also have problems, with songs appearing grey even if you and other players have the same song installed. To avoid this, the CON file needs a numeric ID.
-
+Online will also have problems, with songs appearing grey even if you and other players have the same song installed. To avoid this, the CON file needs a numeric ID.  
 ![A screenshot of Rock Band 3, showing songs with a darker color as they are disabled.](https://rb3pc.milohax.org/images/trbl/online/missingsong.png "Rock Band 3: Missing Songs Example")
 
-If you wish to correct the ID of a song you've already installed, click here down to the “Installed Songs section”, otherwise follow the steps below to get a correct ID:
+You can solve this issue by correcting the IDs with Nautilus.
 
 ### Fixing IDs Before Installing
 
@@ -65,7 +64,7 @@ Wait for it to finish.
 
 ## Delete individual songs in a pack
 
-Rock Band 3 can delete a song in-game. The problem is, if a song is part of a pack, it'll delete that entire pack as well.  
+Rock Band 3 can delete a song in-game. However, if a song is part of a pack, it'll delete that entire pack as well.  
 ![A screenshot from Rock Band 3, warning the user that they're about to delete many songs from the library.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/rb3delwarn.png "Delete song")
 
 The best way to remove a song from a pack is through Nautilus' "Quick Patch Editor."

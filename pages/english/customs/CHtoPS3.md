@@ -82,11 +82,11 @@ If using RB3DX, you can even do this while the game is running. Within RB3, sele
 <div role="tabpanel" class="tab-pane" id="pkg">
 <p><img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchpkg.png" alt="A screenshot of Onyx's Batch Recompile window. Under the &quot;RB3&quot; tab, &quot;Create PS3/RPCS3 folders&quot; is selected." title="Batch Recompile"></p>
 <h4 id="section">9.</h4>
-<p>Select where you would like to save the PKG file and give it a name.<br>
+<p>Select where you would like to save the PKG file(s) and give it(them) a name.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savepkgfolder.png" alt="A screenshot of a file browser window. A location is set and the cursor is over &quot;Select Folder.&quot;" title="Select Folder"></p>
 <h4 id="section-1">10.</h4>
-<p>It should successfully convert and a PKG file will be created, ready to install.<br>
-Simply install it like any other PKG.<br>
+<p>It should successfully convert and a PKG file(s) will be created, ready to install.<br>
+Simply install it(them) like any other PKG.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchfinish.png" alt="A screenshot of Onyx's Batch Recompile Task tab. It is showing an in-progress conversion." title="Batch Recompile"></p>
 
 </div>
