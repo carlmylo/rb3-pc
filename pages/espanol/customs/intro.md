@@ -5,7 +5,7 @@ permalink: customs_intro_es
 folder: espanol
 tags: [espanol, customs]
 summary: "How to add custom songs to Rock Band 3."
-series: "Converting Customs"
+series: "Convirtiendo Customs"
 weight: 1
 toc: false
 ---

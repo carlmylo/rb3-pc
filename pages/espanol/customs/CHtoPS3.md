@@ -5,7 +5,7 @@ permalink: customs_CHtoPS3_es
 folder: espanol
 tags: [espanol, customs]
 summary: "How to convert Clone Hero/YARG songs to PS3/RPCS3 Format"
-series: "Converting Customs"
+series: "Convirtiendo Customs"
 weight: 3
 toc: false
 ---

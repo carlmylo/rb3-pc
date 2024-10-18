@@ -5,7 +5,7 @@ permalink: customs_troubleshooting_es
 folder: espanol
 tags: [espanol, customs]
 summary: "How to solve common issues with Rock Band 3 customs."
-series: "Converting Customs"
+series: "Convirtiendo Customs"
 weight: 4
 ---
 
