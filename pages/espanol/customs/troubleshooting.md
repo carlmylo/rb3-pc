@@ -121,6 +121,6 @@ Go into the new `decrypted` folder and cut the `.mogg` file inside of it.
 Go back to the song's main folder and replace the old `.mogg` file.
 ![A GIF of a .mogg file within the "decrypted" folder being cut then pasted in the folder before it. It replaces the old .mogg file.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/moggreplace.gif "Quick Convert")
 
-{% include custom/series_customs_next.html %}
+{% include custom/series_customses_next.html %}
 
 {% include links.html %}

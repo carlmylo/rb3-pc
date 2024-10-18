@@ -92,6 +92,6 @@ Simply install it(them) like any other PKG.<br>
 </div>
 </div>
 
-{% include custom/series_customs_next.html %}
+{% include custom/series_customses_next.html %}
 
 {% include links.html %}

@@ -26,6 +26,6 @@ La guía principal en la segunda página te va ayudar a arreglar los dos peores 
 	* [[Enlace alternativo]](https://github.com/trojannemo/Nautilus/releases/){:target="_blank"}
 * [[Herramientas de Onyx]](https://github.com/mtolly/onyxite-customs){:target="_blank"}
 
-{% include custom/series_customs_next.html %}
+{% include custom/series_customses_next.html %}
 
 {% include links.html %}
