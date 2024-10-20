@@ -10,25 +10,27 @@ weight: 3
 toc: false
 ---
 
-<span style="font-size:x-large;">DISCLAIMER - READ BEFORE CONTINUING</span>
+<span style="font-size:x-large;">ADVERTENCIA - LEE ESTO ANTES DE TODO</span>
 
-Do this as a **last resort** if the charts you want to convert were specifically made for PC clone games (Clone Hero/YARG). If the chart originally existed in RB format, whether it be official DLC or customs, **get that first and follow the main guide at the top!**
+¡Solo has esto como **ultimo recurso** y si las canciones que quieres solo existen para juegos que son clones (Clone Hero/YARG). Si la canción originalmente existió en un formato para Rock Band (de manera oficial o por custom), **usa esa versión antes de todo y lee la guía principal**.
 
-**Failure to do so will result in lost metadata** associated with the original song package, including:
-* Incompatibility with any song upgrades in RB3DX
-	* Keys, Pro Guitar, Harmonies, & chart fixes to legacy RB songs that didn't have them
-* Incompatibility with online play and leaderboards
-* Animation data such as character lipsync will be lost
+Toma esto en cuenta porque **si no lo haces, la canción va a perder muchos datos**, como:
+* Incompatibilidad con mejoras/actualizaciones por Rock Band 3 Deluxe
+	* Armonías, teclado, guitarra/bajo PRO e arreglos de canciones para canciones que no las tenían
+* Su identidad propia para poder jugar en linea y tener tableros de calificaciones
+* Animaciones propias y "lipsync" serán perdidos
 
-Should you decide to ignore the disclaimer and proceed, you will be **refused any support** from the MiloHax Discord if you run into any issues.
-**YOU HAVE BEEN WARNED!**
+Si lo haces como quiera, **no te podemos ayudar con ningún problema** causado por ignorar esta advertencia.
+**!No digas que no de advertiremos!**
+
+
 
 #### 1.
-After downloading the charts you want, open Onyx and select `Batch recompile`.  
-![A screenshot of Onyx's main screen. A cursor hovers over "Batch recompile."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatch.png "Onyx Console")
+Después de descargar las canciones que quieras usar, entra a Onyx y elige `Batch recompile`.  
+![Una captura de la pantalla principal de Onyx. A cursor hovers over "Batch recompile."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatch.png "Onyx Console")
 
 #### 2.
-At the top of the Batch Recompile window, click on `Edit` then `Preferences`.  
+Arriba de la pantalla de "Batch Recompile", haz click en `Edit` y luego `Preferences`.  
 ![A screenshot of Onyx's Batch Recompile. The "Edit" menu has been expanded and "Preferences" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Batch Recompile")
 
 #### 3.
@@ -69,13 +71,14 @@ To finish, select either `Create PS3 PKG files` or `Create PS3/RPCS3 folders`.
 <div role="tabpanel" class="tab-pane active" id="folders">
 <p><img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchfolders.png" alt="A screenshot of Onyx's Batch Recompile window. Under the &quot;RB3&quot; tab, &quot;Create PS3/RPCS3 folders&quot; is selected." title="Batch Recompile"></p>
 <h4 id="section">9.</h4>
-<p>Navigate to your RPCS3 folder and select the <code>dev_hdd0</code> folder.<br>
+<p>Ve a donde tienes tu carpeta de <code>dev_hdd0</code>. Usualmente está en la carpeta de RPCS3.<br>
 If you're going to be installing to a PS3 via FTP, select the most convenient folder.<br>
-<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savefolder.png" alt="A screenshot of a file browser window. A location is set and the cursor is over &quot;Select Folder.&quot;" title="Select Folder"></p>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savefolder.png" alt="Una captura de un explorador de archivos. A location is set and El cursor esta sobre &quot;Select Folder.&quot;" title="Select Folder"></p>
 <h4 id="section-1">10.</h4>
-<p>It should successfully convert and auto-install into your RPCS3 directory, ready to play.<br>
-If using RB3DX, you can even do this while the game is running. Within RB3, select:<br>
-<code>Options &gt; Extras &gt; Refresh Library</code> to reload your song list.<br>
+<p>Cuando termines, tendrás las canciones en la carpeta, listas para jugar, si estas en emulador.<br>
+Si estas en PS3, tendrás que copiar la carpeta por FTP a <code>dev_hdd0/game/BLUS30463/USRDIR<code>.
+Hasta puedes actualizar tu colección musical mientras estés dentro del juego con RB3DX. Dentro de Rock Band 3, ve a:<br>
+<code>Opciones &gt; Extras &gt; Actualizar Colección Musical</code> para cargar las canciones nuevas.<br>
 <img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchfinish.png" alt="A screenshot of Onyx's Batch Recompile Task tab. It is showing an in-progress conversion." title="Batch Recompile"></p>
 
 </div>
@@ -83,7 +86,7 @@ If using RB3DX, you can even do this while the game is running. Within RB3, sele
 <p><img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchpkg.png" alt="A screenshot of Onyx's Batch Recompile window. Under the &quot;RB3&quot; tab, &quot;Create PS3/RPCS3 folders&quot; is selected." title="Batch Recompile"></p>
 <h4 id="section">9.</h4>
 <p>Select where you would like to save the PKG file(s) and give it(them) a name.<br>
-<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savepkgfolder.png" alt="A screenshot of a file browser window. A location is set and the cursor is over &quot;Select Folder.&quot;" title="Select Folder"></p>
+<img src="https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/savepkgfolder.png" alt="Una captura de un explorador de archivos. A location is set and El cursor esta sobre &quot;Select Folder.&quot;" title="Select Folder"></p>
 <h4 id="section-1">10.</h4>
 <p>It should successfully convert and a PKG file(s) will be created, ready to install.<br>
 Simply install it(them) like any other PKG.<br>
