@@ -39,7 +39,7 @@ You can solve this issue by correcting the IDs with Nautilus.
 
 3\. On either PS3 or RPCS3, navigate to song/pack containing the song with the bad ID (normally within `dev_hdd0\game\BLUS30463\USRDIR\[SONGNAME]\songs`).  
 After finding it, select the `songs.dta` file within the folder. 
-![A screenshot of a file browser window. "dev_hdd0" is selected and the cursor is over "Open".](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchselect.png "Select DTA file to edit")
+![Una captura de un explorador de archivos. "dev_hdd0" is selected and El cursor esta sobre "Open".](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchselect.png "Select DTA file to edit")
 
 4\. Wait for it to finish correcting every song within that pack. When it finishes, you can share the fixed `songs.dta` file with your friends to play the previously unavailable songs together.  
 ![A screenshot of Nautilus's PS3 Converter. It has just finished replacing custom songs without numeric IDs.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautilusps3batchdone.png "PS3 Converter")
@@ -74,7 +74,7 @@ The best way to remove a song from a pack is through Nautilus' "Quick Patch Edit
 
 2\. Open a file browser window and navigate to the pack folder that contains the song you want to remove and look for the `songs.dta` file.  
 It will usually be in `dev_hdd0\game\BLUS30463\USRDIR\[PACKNAME]\songs`).
-![A screenshot of a file browser window. "songs.dta" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/findfolder.png "songs")
+![Una captura de un explorador de archivos. "songs.dta" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/findfolder.png "songs")
 
 3\. Drag the `songs.dta` file into the `Quick Pack Editor`.  
 Select the songs you want to remove then click `Remove selected`.  
@@ -83,7 +83,7 @@ When you're done, click `Save` to lock your changes in.
 
 4.\. Even though the song is deleted from the `songs.dta` file, they will still take up space.  
 You have to delete the song's corresponding folder as well.  
-![A screenshot of a file browser window. Multiple songs are selected and the cursor hovers over a popup menu option that says "Delete."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/packdelfolder.png "songs")
+![Una captura de un explorador de archivos. Multiple songs are selected and the cursor hovers over a popup menu option that says "Delete."](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/packdelfolder.png "songs")
 
 ## PS3: Greyed out customs
 
@@ -111,7 +111,7 @@ Do note that you'll need to have "Rock Band 3 1.1 Beta 4" or newer if you're on 
 3\. On either PS3 or RPCS3, navigate to the folder containing the song you wish to fix.  
 It will usually be in `dev_hdd0\game\BLUS30463\USRDIR\[PACKNAME]\songs\[PROBLEMATICSONG]`).  
 There will be a `.mogg` file in the song's folder.  
-![A screenshot of a file browser window. A mogg file is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/findmogg.png "MOGG File")
+![Una captura de un explorador de archivos. A mogg file is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/findmogg.png "MOGG File")
 
 4\. Drag and drop the song's `.mogg` file onto `Batch Cryptor` and click `Begin`.  
 ![A GIF of a .mogg file being dropped into "Batch Cryptor" the being decrypted.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/nautiluscryptdecryptmogg.gif "Quick Convert")
