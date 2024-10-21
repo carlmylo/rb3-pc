@@ -1,10 +1,10 @@
 ---
-title: "Converting Clone Hero/YARG songs to Rock Band 3"
+title: "Convirtiendo customs para Clone Hero/YARG a formato de PS3/RPCS3"
 sidebar: customs_sidebar
 permalink: customs_CHtoPS3_es
 folder: espanol
 tags: [espanol, customs]
-summary: "How to convert Clone Hero/YARG songs to PS3/RPCS3 Format"
+summary: "Como convertir canciones de Clone Hero/YARG a PS3/RPCS3"
 series: "Convirtiendo Customs"
 weight: 3
 toc: false
@@ -34,19 +34,19 @@ Arriba de la pantalla de "Batch Recompile", haz click en `Edit` y luego `Prefere
 ![A screenshot of Onyx's Batch Recompile. The "Edit" menu has been expanded and "Preferences" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefs.png "Batch Recompile")
 
 #### 3.
-Switch to the `Rock Band` tab. 
-Change to `Magma optional`.  
+Entra a la pestaña de `Rock Band`. 
+Cambia a `Magma optional`.  
 ![A screenshot of Onyx's Preferences window. Under the "Rock Band" tab, "Magma optional" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefsrb.png "Batch Recompile")
 
 #### 4.
-You will be warned about this.  
-Click `OK`.  
+Te dara una advertencia.  
+Haz click en `OK`.  
 ![A screenshot of a warning from Onyx. It warns that disabling Magma will crash Rock Band.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchwarn.png "Magma Warning")
 
 #### 5.
-Switch to the `Audio` tab. 
-Lower the `OGG Vorbis quality` to `3.00`.  
-After that, click on `Save`.  
+Cambia a la pestaña de `Audio`. 
+Baja a la barra de `OGG Vorbis quality` a `3.00`.  
+Después, haz click en `Save`.  
 ![A screenshot of Onyx's Preferences window. Under the "Audio" tab, "Magma optional" is selected.](https://raw.githubusercontent.com/carlmylo/rb3-pc/refs/heads/main/images/xtra/customs/onyxbatchprefsaud.png "Batch Recompile")
 
 #### 6.

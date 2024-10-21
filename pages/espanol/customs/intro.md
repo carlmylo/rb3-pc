@@ -1,10 +1,10 @@
 ---
-title: Introduction
+title: Introducción
 sidebar: customs_sidebar
 permalink: customs_intro_es
 folder: espanol
 tags: [espanol, customs]
-summary: "How to add custom songs to Rock Band 3."
+summary: "Como agregar customs a Rock Band 3 a la version de PS3."
 series: "Convirtiendo Customs"
 weight: 1
 toc: false
@@ -21,7 +21,7 @@ La guía principal en la segunda página te va ayudar a arreglar los dos peores 
 ### Requisitos:
 * Una consola PS3 con HEN o CFW (con una manera de meterle archivos) o [[el emulador RPCS3
 ]](https://rpcs3.net/){:target="_blank"}
-* [[Una instalación de Rock Band 3 Deluxe]](https://rb3dx.milohax.org/){:target="_blank"}
+* [[Una instalación de Rock Band 3 Deluxe]](https://rb3pc.milohax.org/gs_disc_es){:target="_blank"}
 * [[Nautilus]](https://nemosnautilus.com/nautilus/){:target="_blank"} (antes conocido como C3 CON Tools)
 	* [[Enlace alternativo]](https://github.com/trojannemo/Nautilus/releases/){:target="_blank"}
 * [[Herramientas de Onyx]](https://github.com/mtolly/onyxite-customs){:target="_blank"}
